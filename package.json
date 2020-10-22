@@ -1,0 +1,8 @@
+{
+  "name": "git-fetch",
+  "version": "1.0.0",
+  "description": "Simple GitOps app",
+  "main": "index.js",
+  "author": "xeon",
+  "license": "MIT"
+}
