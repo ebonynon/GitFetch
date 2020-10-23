@@ -43,4 +43,16 @@ function f(req) {
   });
 }
 
+router.get("/:id", (req, res) => {
+  console.log(req.params.id);
+  fs.readFile(`data/files/${req.params.id}.txt`, (err, data) => {
+    if (err) {
+      res.status(400).json({ error: "Repo not found" });
+      throw err;
+    }
+
+    res.send(data);
+  });
+});
+
 module.exports = router;
