@@ -13,13 +13,16 @@ function loop() {
 
     Object.values(logSet_).forEach((val) => {
       if (Object.keys(val.diff).length < 1) {
-        exec(`cd git && git clone ${val.repo}`, (error, stdout, stderr) => {
-          exec(
-            `echo "timestamp:${unixTime}\n\n${
-              stdout || stderr || error
-            }" >> data/files/${val.repo.split("/")[4]}.txt`
-          );
-        });
+        exec(
+          `cd git && git clone ${val.repo} && git diff @{1}..`,
+          (error, stdout, stderr) => {
+            exec(
+              `echo "timestamp:${unixTime}\n\n${
+                stdout || stderr || error
+              }" >> data/files/${val.repo.split("/")[4]}.txt`
+            );
+          }
+        );
 
         val.diff.push({ clock: unixTime });
       } else {
