@@ -30,7 +30,7 @@ function f(req) {
 
     let q = {
       repo: req.body.repo,
-      stime: req.body.time * 60000,
+      stime: req.body.time * 60,
       diff: [],
     };
 
