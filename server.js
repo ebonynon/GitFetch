@@ -14,7 +14,7 @@ function loop() {
     Object.values(logSet_).forEach((val) => {
       if (Object.keys(val.diff).length < 1) {
         exec(
-          `cd git && git clone ${val.repo} && git diff @{1}..`,
+          `cd git && git clone ${val.repo} && git diff ...origin`,
           (error, stdout, stderr) => {
             exec(
               `echo "timestamp:${unixTime}\n\n${
