@@ -14,7 +14,7 @@ function loop() {
     Object.values(logSet_).forEach((val) => {
       if (Object.keys(val.diff).length < 1) {
         exec(
-          `cd git && git clone ${val.repo} && git diff ...origin`,
+          `cd git && git clone ${val.repo}`,
           (error, stdout, stderr) => {
             exec(
               `echo "timestamp:${unixTime}\n\n${
@@ -32,7 +32,7 @@ function loop() {
           val.stime
         ) {
           exec(
-            `cd git/${val.repo.split("/")[4]} && git pull origin master`,
+            `cd git/${val.repo.split("/")[4]} && git pull origin master && git diff ...origin`,
             (error, stdout, stderr) => {
               exec(
                 `echo "timestamp:${unixTime}\n\n${
