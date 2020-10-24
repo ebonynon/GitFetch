@@ -10,8 +10,8 @@ router.post("/", (req, res) => {
     if (err) throw err;
 
     let _data = JSON.parse(data);
-    f(req);
     _data.push(req.body);
+    f(req);
 
     fs.writeFile(dataPath, JSON.stringify(_data, null, 2), (err) => {
       if (err)

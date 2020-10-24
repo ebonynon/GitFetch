@@ -1,6 +1,22 @@
 [
   {
-    "repo": "https://github.com/bpk68/api-server-starter",
+    "repo": "https://github.com/kimmobrunfeldt/concurrently",
     "time": 2
+  },
+  {
+    "repo": "https://github.com/nurislam03/QuickStarter",
+    "time": 3
+  },
+  {
+    "repo": "https://github.com/ebonynon/test",
+    "time": 1
+  },
+  {
+    "repo": "https://github.com/ebonynon/pharos",
+    "time": 3
+  },
+  {
+    "repo": "https://github.com/ebonynon/CppAppOne",
+    "time": 3
   }
 ]

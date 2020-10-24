@@ -1,0 +1,151 @@
+timestamp:1603523860
+
+Cloning into 'test'...
+fatal: ambiguous argument '...origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+timestamp:1603523920
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603523980
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524040
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524100
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524160
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524222
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524282
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524342
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524402
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524462
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524618
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524678
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524738
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524798
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524858
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524918
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603524978
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525038
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525098
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525159
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525219
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525279
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525339
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525399
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525459
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525519
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525579
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525639
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525699
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525759
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525819
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525879
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525939
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603525999
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603526059
+
+fatal: Couldn't find remote ref master
+
+timestamp:1603530650
+
+fatal: Couldn't find remote ref master
+

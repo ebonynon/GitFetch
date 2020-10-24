@@ -1,0 +1,60 @@
+timestamp:1603524100
+
+Cloning into 'pharos'...
+fatal: ambiguous argument '...origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+timestamp:1603524282
+
+Updating 9b28160..decfdbe
+Fast-forward
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+timestamp:1603524462
+
+Already up to date.
+
+timestamp:1603524678
+
+Updating decfdbe..72c1d8f
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+timestamp:1603524858
+
+Already up to date.
+
+timestamp:1603525038
+
+Updating 72c1d8f..4aa30b7
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+timestamp:1603525219
+
+Already up to date.
+
+timestamp:1603525399
+
+Already up to date.
+
+timestamp:1603525579
+
+Already up to date.
+
+timestamp:1603525759
+
+Already up to date.
+
+timestamp:1603525939
+
+Already up to date.
+
+timestamp:1603530650
+
+Already up to date.
+
