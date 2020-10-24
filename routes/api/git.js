@@ -43,7 +43,7 @@ function f(req) {
   });
 }
 
-router.get("/:id", (req, res) => {
+router.get("/repo/:id", (req, res) => {
   console.log(req.params.id);
   fs.readFile(`data/files/${req.params.id}.txt`, (err, data) => {
     if (err) {
@@ -52,6 +52,26 @@ router.get("/:id", (req, res) => {
     }
 
     res.send(data);
+  });
+});
+
+router.get("/list", (req, res) => {
+  fs.readFile(dataPath, (err, data) => {
+    if (err) {
+      throw err;
+    }
+
+    res.send(JSON.parse(data));
+  });
+});
+
+router.get("/status", (req, res) => {
+  fs.readFile(logPath, "utf8", (err, data) => {
+    if (err) {
+      throw err;
+    }
+
+    res.send(JSON.parse(data));
   });
 });
 
